@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(180deg, #ff9a9e, #fad0c4, #fcb69f);
+}
+h1 {
+    font-weight: bold; /* Makes the title bold */
+    font-size: 2em; /* Adjusts the size of the title */
+    color: #333; /* Optional: sets the color of the title */
+}
+
+.container {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(15, 40px);
+    grid-template-rows: repeat(15, 40px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.grid-item.highlight-yellow {
+    background-color: yellow;
+}
+
+.grid-item.highlight-red {
+    background-color: red;
+}
+
+.grid-item.highlight-blue {
+    background-color: blue;
+}
+
+/* Add more colors as needed */
+
+.controls {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.controls button {
+    font-size: 18px; /* Larger text size */
+    padding: 10px 20px; /* Increase padding for larger button */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove default border */
+    background-color: #007bff; /* Primary color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 5px; /* Space between buttons */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.controls button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
