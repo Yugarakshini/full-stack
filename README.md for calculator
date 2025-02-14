@@ -1,0 +1,31 @@
+# Online Calculator
+
+An attractive online calculator application with interactive buttons and sound effects. Created by Yugarakshini GunaSekar.
+
+## Features
+
+- Basic arithmetic operations (addition, subtraction, multiplication, division)
+- Clear and backspace functionalities
+- Interactive buttons with animations
+- Click sound effect for button presses
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Setup
+
+1. Clone the repository or download the code files.
+2. Make sure you have the `click-sound.mp3` file in the same directory as your HTML file, or update the file path in the JavaScript code accordingly.
+3. Open the `index.html` file in a web browser to use the calculator.
+
+## Usage
+
+- Enter numbers and operators using the calculator buttons.
+- Click the "=" button to evaluate the expression.
+- Use the "c" button to clear the display.
+- Use the "<" button to delete the last character.
+- Enjoy the interactive animations and sound effects!
+
